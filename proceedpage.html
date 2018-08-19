@@ -1,0 +1,416 @@
+<!Doctype>
+<html>
+<head>
+<title>HOMEPAGE</title>
+<style>
+
+.right {
+    position: relative;
+    right: 80px;
+    width: 30px;
+    border: 0px solid #73AD21;
+    padding: 0px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: sticky;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+} 
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav2 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav2 a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav2 .closebtn {
+    position: sticky;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+} 
+     
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+li a {
+   float:left; 
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 4px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+</style>
+
+<fieldset>
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">MY profile</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Add Account</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Notifications</a>
+    </li>
+  </ul>
+</nav>
+<br>
+
+<h2>PROCEED PAGE</h2>
+
+
+<ul>
+  <li><a href="#">Home</a></li>  
+  <li><a href="#news">News</a></li>   
+  <li><a href="#about">About</a></li>
+  <li><a href="#settings">Settings</a></li>
+</ul>    
+
+</head>
+<body>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<div class="container mt-5">
+<div id="mySidenav-1" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeWhatsappNav()">&times;</a>
+  <a href="#">SEND MESSAGE</a>
+  <a href="#">GALLERY</a>
+  <a href="#">ACCOUNT</a>
+  <a href="#">SETTINGS</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openWhatsappNav()">
+<img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c543.png"  class="rounded-circle" style="width:50px;">WHATSAPP
+ </span>
+
+<script>
+function openWhatsappNav() {
+    document.getElementById("mySidenav-1").style.width = "250px";
+     document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeWhatsappNav() {
+    document.getElementById("mySidenav-1").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script> 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<div id="mySidenav-12" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeFacebookNav()">&times;</a>
+  <a href="#">SEND MESSAGE</a>
+  <a href="#">SEND STORIES</a>
+  <a href="#">SETTINGS</a>
+  <a href="#">ACCOUNT</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openFacebookNav()">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/a1/77/a1/a177a127-6b0d-0ef0-a677-be6aaa601cff/Icon-Production-1x_U007emarketing-0-85-220-0-6.png/246x0w.jpg"  class="rounded-circle" style="width:50px;">FACEBOOK
+ </span>
+
+<script>
+function openFacebookNav() {
+    document.getElementById("mySidenav-12").style.width = "250px";
+     document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeFacebookNav() {
+    document.getElementById("mySidenav-12").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script> 
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp            
+    <input type="submit" class="btn btn-dark" value="ALL">
+<div id="mySidenav-2" class="sidenav2">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeALLNav()">&times;</a>
+  <a href="#">HISTORY</a>
+  <a href="#">DOWNLOADS</a>
+  <a href="#">BOOKMARKS</a>
+  <a href="#">BACKUP</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openALLNav()">&#9776;</span>
+
+<script>
+function openALLNav() {
+    document.getElementById("mySidenav-2").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeALLNav() {
+    document.getElementById("mySidenav-2").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+    <div class="media-body">
+    </div>
+  </div>
+<div class="container mt-5">
+<div id="mySidenav-3" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeGMAILNav()">&times;</a>
+  <a href="#">DOCUMENT</a>
+  <a href="#">ACCOUNT</a>
+  <a href="#">SETTINGS</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openGMAILNav()">
+<img src="https://i.kinja-img.com/gawker-media/image/upload/s--LnFQyN9m--/c_scale,f_auto,fl_progressive,q_80,w_800/pdcdhts0slh8v5q4olib.jpg"  class="rounded-circle" style="width:50px;">GMAIL
+ </span>
+
+<script>
+function openGMAILNav() {
+    document.getElementById("mySidenav-3").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeGMAILNav() {
+    document.getElementById("mySidenav-3").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script> 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<div id="mySidenav-10" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeSnapchatNav()">&times;</a>
+  <a href="#">SEND SNAP</a>
+  <a href="#">SETTINGS</a>
+  <a href="#">ACCOUNT</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openSnapchatNav()">
+<img src="https://banner2.kisspng.com/20180622/cxq/kisspng-snapchat-logo-snap-inc-5b2c7e9b8f3b30.1676840615296426515867.jpg"  class="rounded-circle" style="width:50px;">SNAPCHAT
+ </span>
+
+<script>
+function openSnapchatNav() {
+    document.getElementById("mySidenav-10").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeSnapchatNav() {
+    document.getElementById("mySidenav-10").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script> 
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp                       
+  <input type="submit" class="btn btn-dark" value="Messages">
+<div id="mySidenav-4" class="sidenav2">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeMessagesNav()">&times;</a>
+  <a href="#">SENT MESSAGES</a>
+  <a href="#">RECIEVED MESSAGES</a>
+  <a href="#">STARRED MESSAGES</a>
+</div>
+<span style="font-size:30px;cursor:pointer;align=right;" onclick="openMessagesNav()">&#9776;</span>
+
+<script>
+function openMessagesNav() {
+    document.getElementById("mySidenav-4").style.width = "250px";
+    document.getElementById("main").style.marginRight = "250px";
+}
+
+function closeMessagesNav() {
+    document.getElementById("mySidenav-4").style.width = "0";
+    document.getElementById("main").style.marginRight= "0";
+}
+</script>
+  <div class="media-body">
+  </div>
+  </div>
+<div class="container mt-5">
+<div id="mySidenav-5" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeTwitterNav()">&times;</a>
+  <a href="#">SEND MESSAGE</a>
+  <a href="#">SETTINGS</a>
+  <a href="#">ACCOUNT</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openTwitterNav()">
+<img src="https://selfpublishingadvice.org/wp-content/uploads/2013/10/twitter-1024x1024.png"  class="rounded-circle" style="width:50px;">TWITTER
+ </span>
+
+<script>
+function openTwitterNav() {
+    document.getElementById("mySidenav-5").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeTwitterNav() {
+    document.getElementById("mySidenav-5").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script> 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<div id="mySidenav-8" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeTinderNav()">&times;</a>
+  <a href="#">SEND MESSAGE</a>
+  <a href="#">ACCOUNT</a>
+  <a href="#">SETTINGS</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openTinderNav()">
+<img src="http://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"  class="rounded-circle" style="width:50px;">TINDER
+ </span>
+
+<script>
+function openTinderNav() {
+    document.getElementById("mySidenav-8").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeTinderNav() {
+    document.getElementById("mySidenav-8").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script> 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         
+  <input type="submit" class="btn btn-dark" value="REQUESTS">
+<div id="mySidenav-6" class="sidenav2">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeRequestNav()">&times;</a>
+  <a href="#">PROCESS REQUESTS</a>
+  <a href="#">FILE REQUESTS</a>
+  <a href="#">CLIENT REQUEST</a>
+  <a href="#">ORDER REQUEST</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openRequestNav()">&#9776;</span>
+
+<script>
+function openRequestNav() {
+    document.getElementById("mySidenav-6").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeRequestNav() {
+    document.getElementById("mySidenav-6").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+  <div class="media-body">
+  </div>
+  </div>
+  <div class="container mt-5">
+<div id="mySidenav-7" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeInstagramNav()">&times;</a>
+  <a href="#">SEND MESSAGE</a>
+  <a href="#">GALLERY</a>
+  <a href="#">ACCOUNT</a>
+  <a href="#">SETTINGS</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openInstagramNav()">
+<img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266__340.jpg"  class="rounded-circle" style="width:50px;">INSTAGRAM
+ </span>
+
+<script>
+function openInstagramNav() {
+    document.getElementById("mySidenav-7").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeInstagramNav() {
+    document.getElementById("mySidenav-7").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>  
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<div id="mySidenav-9" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeSkypeNav()">&times;</a>
+  <a href="#">SEND MESSAGE</a>
+  <a href="#">VIDEO CALL</a>
+  <a href="#">ACCOUNT</a>
+  <a href="#">SETTINGS</a>
+</div>
+<span style="font-size:20px;cursor:pointer" onclick="openSkypeNav()">
+<img src="https://seeklogo.com/images/S/skype-logo-3966BB87B0-seeklogo.com.png"  class="rounded-circle" style="width:50px;">SKYPE
+ </span>
+
+<script>
+function openSkypeNav() {
+    document.getElementById("mySidenav-9").style.width = "250px";
+
+function closeSkypeNav() {
+    document.getElementById("mySidenav-9").style.width = "0"; 
+}
+</script> 
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp              
+  <input type="submit" class="btn btn-dark" value="ACCOUNT">
+<div id="mySidenav8" class="sidenav2">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeAccountNav()">&times;</a>
+  <a href="#">PRIVACY</a>
+  <a href="#">HELP&FEEDBACK</a>
+  <a href="#">REPORT</a>
+  <a href="#">LOGOUT</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openAccountNav()">&#9776;</span>
+
+<script>
+function openAccountNav() {
+    document.getElementById("mySidenav8").style.width = "250px";
+}
+
+function closeAccountNav() {
+    document.getElementById("mySidenav8").style.width = "0";
+}
+</script>
+  <div class="media-body">
+  </div>
+  </div>
+</fieldset>
+
+</body>
+</html>
